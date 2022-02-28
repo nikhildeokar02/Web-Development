@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+</head>
+<body>
+    <h2>This is Html Form Tutorail</h2>
+    <form action="backend.php">
+       <div>
+           <label for="name">Name</label>
+           <input type = "text" id="name">
+       </div> 
+       <br>
+       <div>
+        Role:<input type = "text" name="myRole">   
+    </div> 
+    <br>
+    <div>
+        Email:<input type = "email" name="myEmail"> 
+        
+    </div> 
+    <br>
+    <div>
+        Date:<input type="date" name="myDate">
+    </div>
+    <br>
+    <div>
+        Are You Elgible:<input type="checkbox" name="myEligiblity">
+    </div>
+    <br>
+    <div>
+        Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender"> 
+        Other<input type="radio" name="myGender">
+    </div>
+    <br>
+    <div>
+        Write About Yourself:<br><textarea name="myText" cols="90" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+            <option value="ind" selected>Indica</option>
+            <option value="swf">Swift</option>
+        </select>
+    </div>
+    <div>
+        <input type = "Submit" value="Submit Now">
+        <input type="reset" value="Reset">
+    </div>
+</form>
+</body>
+</html>
